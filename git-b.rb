@@ -14,7 +14,6 @@ class GitB < Formula
       url "https://github.com/jharrilim/git-b/releases/download/#{VERSION}/git-b-v#{VERSION}-x86_64-apple-darwin.tar.gz"
       sha256 X86_64_SHA
     else
-          "https://github.com/jharrilim/git-b/releases/download/1.0.0/git-b-v1.0.0-aarch64-apple-darwin.tar.gz"
       url "https://github.com/jharrilim/git-b/releases/download/#{VERSION}/git-b-v#{VERSION}-aarch64-apple-darwin.tar.gz"
       sha256 AARCH64_SHA
     end
