@@ -21,6 +21,7 @@ class GitB < Formula
 
   def install
     bin.install "git-b"
+    man1.install "share/man/man1/git-b.1"
   end
 
   test do
